@@ -29,7 +29,7 @@ main p {
 }
 
 header {
-    background-image: url('Graphics/background\ image.webp');
+    background-image: url('Graphics/background/image.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-origin: content-box;
