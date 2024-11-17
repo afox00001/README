@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-        <h1><img src ="Graphics/Logoimg.png" alt="Techsphire Technical and Community College Logo">
+        <h1><img src ="Graphics/Logoimg.png" alt="Techsphire Technical and Community College Logo" onclick="clickread()">
         <br>Techsphire Technical and Community College</h1>
          <nav = id="mainNav">
             <ul>
-                <li><a href = "#">Home</a></li>
+                <li><a href = "#" onclick="stylebackgroundchange()">Home</a></li>
                 <li><a href = "admissions.html">Admissions</a></li>
                 <li><a href = "programs.html">Programs</a></li>
                 <li><a href = "directory.html">Directory</a></li>
@@ -29,7 +29,18 @@
         <section>
             <img src = "Graphics/aboutimage.jpg" alt="aboutimage">
             <h2>About Us</h2>
-            <p>Founded in 2024, Techspire Technical and Community College was established with a vision to provide cutting-edge technical education to students of all backgrounds. Our college was created by industry leaders and educators who recognized the growing demand for skilled professionals in fields like Information Technology, Engineering, and Healthcare. At Techspire, we offer a wide array of programs including Cybersecurity, Software Development, Robotics, Advanced Manufacturing, and more. Our hands-on approach, combined with a focus on real-world experience, ensures that our graduates are prepared to excel in today’s rapidly evolving job market.</p>
+            <p>
+                Founded in 2024, Techspire Technical and Community College was established with a clear vision: to provide cutting-edge technical education that empowers students from all backgrounds to succeed in today’s rapidly evolving job market. Our founders—industry leaders and experienced educators—recognized the growing need for skilled professionals in high-demand fields such as Health Information Technology, Digital Marketing and E-Commerce, Robotics and Automation Technology, Software Development and Engineering, and Cybersecurity and Network Defense. With this in mind, we set out to build an institution that not only provides top-tier education but also equips students with the hands-on skills and real-world experience needed to excel in these critical industries.
+                
+                At Techspire, we offer a diverse range of programs that are designed to meet the needs of an ever-changing job market. Our curriculum is tailored to provide students with the practical, industry-specific knowledge they need to succeed, ensuring that they are prepared to take on the challenges of their chosen fields. Whether you're looking to enter the fast-growing world of Health Information Technology, dive into the dynamic fields of Digital Marketing and E-Commerce, or explore the exciting advancements in Robotics and Automation, our programs are built to give you a competitive edge.
+                
+                We also offer programs in Software Development and Engineering, where students learn to design, develop, and deploy software solutions for a variety of industries. In our Cybersecurity and Network Defense program, students gain the expertise needed to protect digital infrastructures from ever-evolving security threats, a critical skill in today’s increasingly connected world.
+                
+                What sets Techspire apart is our commitment to a hands-on, real-world approach to learning. We believe that technical education should go beyond the classroom, which is why our students engage in practical projects, internships, and partnerships with leading industry players. This ensures that our graduates leave with not only the knowledge but also the experience and problem-solving abilities that employers are looking for.
+                
+                At Techspire, we are more than just a college—we are a launchpad for your future. Whether you are looking to start a new career, enhance your current skill set, or explore a new field, we provide the tools, support, and resources necessary for you to succeed. Our dedicated faculty, state-of-the-art facilities, and strong industry connections help ensure that you are well-prepared to meet the demands of the modern workforce.
+                
+                Techspire is here to help you achieve your goals, advance your career, and shape your future in technology. Join us and be part of an institution that is dedicated to preparing students for the exciting, innovative industries of tomorrow.</p>
         </section>
     </main>
     <footer>
@@ -42,4 +53,17 @@
         <p>Minnesota State system website: <a href = "https://www.minnstate.edu/">https://www.minnstate.edu/</a></p>
     </footer>
 </body>
+    <script text="text/javascript">
+        alert("Hello from group 3!");
+        function clickread() {
+            window.location.href = '../README.md';
+        }
+        function stylebackgroundchange() {
+            if (document.body.style.backgroundColor === 'black') {
+                document.body.style.backgroundColor = '#98d4f5';
+            } else {
+                document.body.style.backgroundColor = 'black';
+            }
+        }
+    </script>
 </html>
