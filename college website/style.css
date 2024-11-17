@@ -1,6 +1,7 @@
 @import url('nav.css');
 body {
     background-color:#98d4f5;
+    margin-bottom: 20em;
 }
 
 h2 {
@@ -56,12 +57,13 @@ main > section {
 
 footer {
     clear: both;
-    position: sticky;
+    position: fixed;
     bottom: 0;
-    width: 98%;
+    width: 100%;
     padding: 0.5rem;
     margin-bottom: 0;
     background-color: #d5f0ff;
+    left: -8px;
 }
 
 #course-container {
