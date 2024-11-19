@@ -1,6 +1,6 @@
 @import url('nav.css');
 body {
-    background-color:#98d4f5;
+    background-color:blue;
 }
 
 h2 {
@@ -25,7 +25,8 @@ header h1 {
 }
 
 main p {
-    text-indent: 20px; 
+    text-indent: 20px;
+    color: white;
 }
 
 header {
